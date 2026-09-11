@@ -7,7 +7,6 @@ function page() {
             <Image src={Car}
                 alt="Nexon"
                 placeholder="blur"
-
             />
         </div>
     )
