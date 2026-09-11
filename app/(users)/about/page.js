@@ -1,15 +1,14 @@
-import Image from "next/image"
-import Car from '@/public/car.jpeg';
-
-function page() {
+function Page() {
     return (
-        <div className="" style={{ width: "500px", height: "500px" }} >This is About Page
-            <Image src={Car}
-                alt="Nexon"
-                placeholder="blur"
-            />
+        <div className="min-h-screen bg-gray-100 p-8">
+            <div className="mx-auto max-w-5xl">
+                <h1 className="mb-8 text-3xl font-bold text-gray-800 font-roboto">
+                    About Page
+                </h1>
+            </div>
         </div>
-    )
+    );
 }
 
-export default page
+export default Page;
+

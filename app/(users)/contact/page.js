@@ -1,6 +1,6 @@
 function page() {
     return (
-        <div>This is Contact Component</div>
+        <div>Contact Page </div>
     )
 }
 export default page
